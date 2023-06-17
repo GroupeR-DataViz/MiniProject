@@ -123,6 +123,6 @@ Weaknesses:
  * Limited precision: Due to the stacking and color-coding of data bands, horizon charts sacrifice precision in representing exact data values. It can be challenging to determine the precise values without referring to numerical scales or labels.
  * Steep learning curve: Horizon charts may not be immediately intuitive to interpret for users who are unfamiliar with this visualization technique. It might require some practice and understanding to effectively read and analyze the charts.
 
-To mitigate these weaknesses, we intend to include numerical scales to mitigate the precision issue. This shoudl allow users to understand the specific values associated with each range and make accurate comparisons. Since horizon charts may not be widely known, it is important to provide clear legends and explanations to help users understand the color-coding and the layout of the chart.
+To mitigate these weaknesses, we intend to include numerical scales to mitigate the precision issue. This should allow users to understand the specific values associated with each range and make accurate comparisons. Since horizon charts may not be widely known, it is important to provide clear legends and explanations to help users understand the color-coding and the layout of the chart.
 
 ## Week 2 - Implementation
