@@ -55,7 +55,7 @@ In the same way as for the first design, we would consider including tooltips or
 
 <ins><b>Third design</b></ins>:
 
-The last design proposition is somehow more original. We chose to represent the names inside the sketech of a baby. The popularity of the names is encoded by the font size and the gender is encoded by the color (blue for boys, pink for girls). A cursor allows to select the years, allowing to see the trends in time.
+The last design proposition is somehow more original. We chose to represent the names inside the sketch of a baby. The popularity of the names is encoded by the font size and the gender is encoded by the color (blue for boys, pink for girls). A cursor allows to select the years, allowing to see the trends in time.
 
 ![viz1_design3](https://github.com/GroupeR-DataViz/MiniProject/assets/113033010/4c140d35-33b1-45db-bf20-b19b56af2cbb)
 
