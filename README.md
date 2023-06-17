@@ -50,7 +50,7 @@ Weaknesses:
  * Limited Context: Line charts primarily focus on the popularity of names over time and may lack additional contextual information. Viewers may need to rely on external sources or data to understand the reasons behind the popularity trends.
  * Accuracy issue: Even though we can read quite easily the graph, size is not the first-choice visual variable in terms of accuracy. Several names of close sizes located apart inside the graph can be difficult to compare.
 
-In the same way as for the first desgin, we would consider including tooltips or interactive elements that offer additional information about the selected names and their cultural or historical significance, but these information are not present in the available data.
+In the same way as for the first design, we would consider including tooltips or interactive elements that offer additional information about the selected names and their cultural or historical significance, but these information are not present in the available data.
  
 
 <ins><b>Third design</b></ins>:
