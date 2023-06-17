@@ -4,14 +4,17 @@
 
 ### Visualization 1
 
-The questions addressed by this visualization are : How do baby names evolve over time? Are there names that have consistently remained popular or unpopular? Are there some that have were suddenly or briefly popular or unpopular? Are there trends in time?
+The visualization has to answer the following questions : 
+1. How do baby names evolve over time?
+2. Are there names that have consistently remained popular or unpopular?
+3. Are there some that have were suddenly or briefly popular or unpopular?
+4. Are there trends in time?
 
 <ins><b>First design</b></ins>:
 
+To address the given questions, we first chose to use line charts to depict the popularity of specific names over time, with separate charts for feminine and masculine names, with a text field allowing users to select the names they want to plot. It cannot easily be represented on the sketch, but we would also like to integrate a zoom option to focus on specific time periods.
+
 ![viz1](https://github.com/GroupeR-DataViz/MiniProject/assets/113033010/883c4af6-ecf7-4530-a212-4635729fa869)
-
-
-To answer the 4 given questions, we first chose to draw line charts to depict the popularity of specific names over time, with separate charts for feminine and masculine names, and allowing users to select the names they want to plot. The main strengths and weaknesses of such design are:
 
 Strengths:
 
@@ -25,14 +28,14 @@ Weaknesses:
  * Limited Context: The design may lack additional contextual information about the names or the reasons behind their popularity or decline. Users may need to rely on external sources or data to gain a deeper understanding of the naming trends.
  * Data Availability: The availability and completeness of historical name popularity data can vary. In some cases, there may be gaps or missing data for specific names or years, which can affect the accuracy and reliability of the visualization.
 
-<!--- To address these weaknesses, consider providing features such as search or filtering options to help users navigate and find specific names more easily. Including tooltips or interactive elements that offer additional information about the selected names and their cultural or historical significance can enhance the user experience. -->
+To address these weaknesses, we would consider including tooltips or interactive elements that offer additional information about the selected names and their cultural or historical significance, but these information are not present in the available data.
 
 <ins><b>Second design</b></in>:
 
+For the second design, we chose to use spaghetti charts, with each name having its own individual line chart, to depict the popularity of each name over time. It cannot easily be represented on the sketch, but we would also like to integrate a zoom option to focus on specific time periods.
+
 ![viz1_design2](https://github.com/GroupeR-DataViz/MiniProject/assets/113033010/7fd7610b-f2b7-49dd-a551-66e3e488d33d)
 
-
-For the second design, we chose to use line charts, with each name having its own individual line chart, to depict the popularity of each name over time. This design has its strengths and weaknesses. Here are some considerations:
 
 Strengths:
 
@@ -47,16 +50,14 @@ Weaknesses:
  * Limited Context: Line charts primarily focus on the popularity of names over time and may lack additional contextual information. Viewers may need to rely on external sources or data to understand the reasons behind the popularity trends.
  * Accuracy issue: Even though we can read quite easily the graph, size is not the first-choice visual variable in terms of accuracy. Several names of close sizes located apart inside the graph can be difficult to compare.
 
- <!-- To address these weaknesses, consider implementing interactive features such as tooltips, search functionalities, or filters that allow users to highlight specific names of interest and reduce visual clutter. Offering a legend or additional contextual information alongside the visualization can enhance the understanding of the popularity trends. Additionally, providing zoom or filter options to focus on specific time periods or subsets of names can enhance the user experience. -->
-
+In the same way as for the first desgin, we would consider including tooltips or interactive elements that offer additional information about the selected names and their cultural or historical significance, but these information are not present in the available data.
  
 
 <ins><b>Third design</b></ins>:
 
+The last design proposition is somehow more original. We chose to represent the names inside the sketech of a baby. The popularity of the names is encoded by the font size and the gender is encoded by the color (blue for boys, pink for girls). A cursor allows to select the years, allowing to see the trends in time.
 
 ![viz1_design3](https://github.com/GroupeR-DataViz/MiniProject/assets/113033010/4c140d35-33b1-45db-bf20-b19b56af2cbb)
-
-To answer the 4 given questions, we have chosen to use a visualization of a baby with popular names written inside, color-coded by gender, and varying in size based on popularity, along with a cursor for selecting the year. This design has its strengths and weaknesses. Here are some considerations:
 
 Strengths:
 
@@ -70,15 +71,20 @@ Weaknesses:
  * Lack of Granularity: Using a single visual element (baby) to represent all names may result in limited granularity for individual names. The size variations may not capture subtle differences in popularity, especially if there are significant gaps in popularity between names.
  * Complexity and Interpretation: Depending on the number of names and their popularity, the visualization may become visually cluttered and challenging to interpret. Overlapping names or small font sizes could make it difficult to read or compare names accurately.
 
-<!-- To mitigate these weaknesses, consider providing interactive features that allow users to zoom in or navigate to specific areas of the baby to explore names more closely. Additionally, incorporating tooltips or labels to display the complete name when hovering over a specific point can help overcome potential legibility issues. -->
+To partially mitigate these weaknesses, we would consider introducing a zoom/focus option to allow the exploration of specific areas of the baby.
 
                                                               
 ### Visualization 2
 
+The visualization has to answer the following questions :
+1. Is there a regional effect in the data?
+2. Are some names more popular in some regions?
+3. Are popular names generally popular across the whole country?
+
+To answer to the 3 given questions, we chose to draw 2 maps-based visualization showing the popularity of names in different regions over time (one for masculine names and one for feminine names)
+
 ![viz2](https://github.com/GroupeR-DataViz/MiniProject/assets/113033010/03cf8e75-5109-49f0-a9b4-bfb4e1b3d2e2)
 
-
-To answer to the 3 given questions, we have chosen to draw 2 maps-based visualization showing the popularity of names in different regions over time (one for masculine names and one for feminine names).  Here are some strengths and weaknesses associated with this design:
 
 Strengths:
 
@@ -92,18 +98,19 @@ Weaknesses:
  * Data Aggregation: Aggregating data at the regional level may smooth out local variations within regions. Viewers may not be able to discern specific nuances or localized popularity within larger regions.
  * Interpretation Challenges: Viewers may interpret the map as suggesting causality between geographical location and name popularity, when in reality, various factors influence naming trends. It is important to clarify that the visualization shows correlations rather than direct causation.
 
-<!-- To mitigate these weaknesses, it's important to provide clear explanations and context alongside the visualization. Additionally, including a legend, tooltips, or interactive features can provide additional information and allow users to explore the data further. -->
-
+To mitigate these weaknesses, we plan to provide additional information and allow users to explore the data further with a legend and tooltips.
  
 
 ### Visualization 3 (bonus)
 
+The visualization has to answer the following questions :
+1. Are there gender effects in the data?
+2. Does popularity of names given to both sexes evolve consistently?
+
+To answer to the 2 given questions, we chose to draw 2 horizon graphs : one depicting the evolution of the use of a name for boys, the other depicting the evolution of the use of **the same name** for girls.
+
 ![viz3](https://github.com/GroupeR-DataViz/MiniProject/assets/113033010/674e0f4c-94ea-4c19-a3f7-6aa09aa5b4fc)
 
-
-To answer to the 2 given questions, we have chosen to draw 2 horizon graphs (one for the masculine name and one for the feminine name) in order to compare both sexes over time.
-
-Using horizon graphs to compare the popularity of masculine and feminine names over time has its strengths and weaknesses. Here are some considerations:
 
 Strengths:
 
@@ -116,6 +123,6 @@ Weaknesses:
  * Limited precision: Due to the stacking and color-coding of data bands, horizon charts sacrifice precision in representing exact data values. It can be challenging to determine the precise values without referring to numerical scales or labels.
  * Steep learning curve: Horizon charts may not be immediately intuitive to interpret for users who are unfamiliar with this visualization technique. It might require some practice and understanding to effectively read and analyze the charts.
 
-<!-- To remedy the weaknesses of the horizon graph, we may include numerical scales to mitigate the precision issue. This allows users to understand the specific values associated with each range and make accurate comparisons. Since horizon charts may not be widely known, it is important to provide clear legends and explanations to help users understand the color-coding and the layout of the chart. Horizon charts can be supplemented with other types of visualizations, such as line charts or scatter plots, to provide a more comprehensive view of the data and allow for a more detailed analysis when necessary. -->
+To mitigate these weaknesses, we intend to include numerical scales to mitigate the precision issue. This shoudl allow users to understand the specific values associated with each range and make accurate comparisons. Since horizon charts may not be widely known, it is important to provide clear legends and explanations to help users understand the color-coding and the layout of the chart.
 
 ## Week 2 - Implementation
