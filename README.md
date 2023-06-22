@@ -126,3 +126,32 @@ Weaknesses:
 To mitigate these weaknesses, we intend to include numerical scales to mitigate the precision issue. This should allow users to understand the specific values associated with each range and make accurate comparisons. Since horizon charts may not be widely known, it is important to provide clear legends and explanations to help users understand the color-coding and the layout of the chart.
 
 ## Week 2 - Implementation
+
+# Visualization 1
+The visualization 1 helps answer the following questions:
+
+1. How do baby names evolve over time?
+The line chart at the bottom of the dashboard provides insights into how baby names evolve over time. By using the filter, we can display all names or only the selected baby names. By examining this chart, we can observe how the number of occurrences of each name varies across the years. This allows us to identify names that have gained or lost popularity over time.
+
+2. Are there names that have consistently remained popular or unpopular?
+The horizontal histogram at the top left of the dashboard, sorted in ascending order, displays the most popular baby names. By examining this histogram, we can see the names with the highest number of occurrences, indicating names that have consistently remained popular over an extended period. Similarly, we can identify less frequent names that have consistently remained unpopular over time.
+
+3. Are there some names that have been suddenly or briefly popular or unpopular?
+The bubble chart at the top right of the dashboard represents the number of occurrences of each name, with bubble size indicating frequency. By using the filter on the bubbles or the histogram, when we select a specific name, it will be highlighted and selected on all three graphs. This allows us to identify names that have experienced a sudden increase or decrease in popularity, even if it was only for a brief period.
+
+4. Are there trends in baby names over time?
+By examining the line chart and observing variations in the number of occurrences of names over the years, we can identify trends in baby names. For example, we may notice periods where certain names become more popular and then decline. Similarly, we may identify periods where certain names regain popularity after being less frequent for a certain time.
+
+Using this visualization, along with the interactive filters and multiple graphs, we can explore and analyze the evolution of baby names over time, identify consistently popular or unpopular names, spot sudden shifts in popularity, and detect trends and changes in naming preferences.
+
+
+# Visualization 2
+From the interactive visualization that we've created using Tableau, we can glean a lot of information about regional variations in name popularity.
+
+Firstly, the map allows us to get a regional perspective. We can click on any department in France and the histogram will immediately update to display the most frequent names in that selected department. This enables us to see which names are particularly popular in certain regions, providing evidence of regional effects in the data.
+
+For example, if we click on the department of 'Hauts-de-Seine', we may see 'Jean' as a frequent name. If we then select 'Loire-Atlantique', and 'Jean' also shows up as a popular name there, we can start to infer that 'Jean' might be a popular name in multiple regions.
+
+Furthermore, by systematically clicking through each department and observing the changes in the histogram, we can identify trends in name popularity across the whole country. If a name frequently appears as one of the top names in the histogram for most departments, it would suggest to us that this name is generally popular across France.
+
+So, the combination of the interactive map and histogram in our visualization is a powerful tool. It allows us to directly observe and analyze regional variations and trends in name popularity across France.
