@@ -127,7 +127,7 @@ To mitigate these weaknesses, we intend to include numerical scales to mitigate 
 
 ## Week 2 - Implementation
 
-# Visualization 1
+### Visualization 1
 The visualization 1 helps answer the following questions:
 
 1. How do baby names evolve over time?
@@ -145,7 +145,7 @@ By examining the line chart and observing variations in the number of occurrence
 Using this visualization, along with the interactive filters and multiple graphs, we can explore and analyze the evolution of baby names over time, identify consistently popular or unpopular names, spot sudden shifts in popularity, and detect trends and changes in naming preferences.
 
 
-# Visualization 2
+### Visualization 2
 From the interactive visualization that we've created using Tableau, we can glean a lot of information about regional variations in name popularity.
 
 Firstly, the map allows us to get a regional perspective. We can click on any department in France and the histogram will immediately update to display the most frequent names in that selected department. This enables us to see which names are particularly popular in certain regions, providing evidence of regional effects in the data.
