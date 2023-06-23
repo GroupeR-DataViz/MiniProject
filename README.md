@@ -127,6 +127,8 @@ To mitigate these weaknesses, we intend to include numerical scales to mitigate 
 
 ## Week 2 - Implementation
 
+**Install** : The 3 visualisations have been produced using Tableau. To discover them, simply download the 3 workbooks situated in the [Visualizations_week2 folder](https://github.com/GroupeR-DataViz/MiniProject/tree/main/Visualizations_week2) of this repository ... and enjoy :)
+
 ### Visualization 1
 The visualization 1 helps answer the following questions:
 
@@ -155,3 +157,13 @@ For example, if we click on the department of 'Hauts-de-Seine', we may see 'Jean
 Furthermore, by systematically clicking through each department and observing the changes in the histogram, we can identify trends in name popularity across the whole country. If a name frequently appears as one of the top names in the histogram for most departments, it would suggest to us that this name is generally popular across France.
 
 So, the combination of the interactive map and histogram in our visualization is a powerful tool. It allows us to directly observe and analyze regional variations and trends in name popularity across France.
+
+### Visualization 3
+The third visualization focuses on trends in gender, and especially tries to answer the following questions : Are there gender effects in the data? Does popularity of names given to both sexes evolve consistently?
+
+The dashboard created is composed of 2 parts : 
+* A series of bar charts showing the number of baby given a specific name each year (one chart per name). A color encoding allows to quickly gauge the main gender to which the specific name is mainly attributed (pink for girls, blue for boys). A tooltip gives the exact percent for the year selectionned, and filters on the right allow to add / remove charts with a text field and reduce / increase the considered year range. Thus, this visualization allows to quickly view if a name if more used for boys or girls, as well as the evolution of the use of the names over time (especially interesting for unisex names such as Camille). The superposition of charts allows the user to compare the names it is more interested in.
+* A list of names, sorted according to a "Unisex Ratio". The computation of this metric is fairly straightforward : the data contains a field "Sexe" equal to 1 for boys and 2 for girls. Thus, a perfectly interchangeable name for boys and girls would have an mean of 1.5 for this specific field. We computed the absolute difference between the mean "sexe" value for a given name and 1.5 to estimate the spread in use of the name. Therefore, a ratio of 0 caracterises a name used as many times for boys as for girls over the years, while a ratio of 0.5 caracterises a name mainly used for one specific gender. This metric is not perfect (quite biased when the names are rarely used), but it still provides a quantitative estimation of the unisex characteristic of a name. This view is linked to the bar charts, allowing to add / remove charts for specific names with a simple click.
+  
+$$ Ratio = \mid 1.5 - mean(sexe) \mid $$
+
