@@ -171,6 +171,9 @@ $$ \delta = \mid 1.5 - mean(sexe) \mid $$
 
 ### Visualization 3
 
-Minor color and wording adjustments were made to try and make the dashboard clearer and more visually appealing. The main modification brougth to this visualization is the addition of a mixed bar / line charts displaying the evolution of the use of unisex names over time. This addition was motivated by comments made by fellow students in the forum.
-This new chart show that around 3% of names given to babies are unisex (used both for boys and girls), and the trend is increasing in recent years after a decrease in the 80's. To assess whether a name is unisex or gendered, we reused the Unisex delta previously computed. This metric is equal to 0 if a name if used as many times for boys and girls, and 0.5 if used only for boys or for girls. By setting (arbitrarily) a threshold at the value 0.35, we defined names as unisex for $\delta <= 0.35$ and gendered for $\delta > 0.35$.
+Minor color and wording adjustments were made to try and make the dashboard clearer and more visually appealing. The main modification brougth to this visualization is the addition of a mixed bar / line charts displaying the evolution of the use of unisex names over time. This addition was motivated by comments made by fellow students in the forum. <br>
+This new chart show that around 3% of names given to babies are unisex (used both for boys and girls), and the trend is increasing in recent years after a decrease in the 80's. To assess whether a name is unisex or gendered, we reused the Unisex delta previously computed. This metric is equal to 0 if a name if used as many times for boys and girls, and 0.5 if used only for boys or for girls. By setting a threshold at the value 0.35, we defined names as unisex for $\delta <= 0.35$ and gendered for $\delta > 0.35$. This threshold may seem a bit arbitrary, but it is a good compromise to select names used frequently enough for both genders. <br>
+The final version of the visualization 3 is the following :
+
+![Viz3](https://github.com/GroupeR-DataViz/MiniProject/assets/113033010/74c21959-676e-45f4-a681-af66636bed48)
 
