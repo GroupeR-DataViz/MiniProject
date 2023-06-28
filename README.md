@@ -169,6 +169,9 @@ $$ \delta = \mid 1.5 - mean(sexe) \mid $$
 
 ## Week 3 - Refined Implementation
 
+### Visualization 1
+
+The calculation of the popularity of names was changed (from count to sum) and the rare names filtered, which should make the bubble chart a bit more informative / interpretable.
 
 ### Visualization 2
 
