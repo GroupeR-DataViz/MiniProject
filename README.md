@@ -177,3 +177,13 @@ The final version of the visualization 3 is the following :
 
 ![Viz3](https://github.com/GroupeR-DataViz/MiniProject/assets/113033010/74c21959-676e-45f4-a681-af66636bed48)
 
+## Bonus
+
+### Baby Plot
+
+We would like to present the "baby_plot" as an example of `chartjunk`, which was discussed during class. Despite its playful appearance and interactive functionality, this plot falls short in effectively displaying the change in popularity of baby names over time. Instead, it requires viewers to retain information in their memory to make comparisons across different years.
+
+In the process of creating this visualization, we took a suitable image of a baby and used the `clippingmagic` tool to remove the background. Subsequently, we introduced a word cloud within the body of the baby image. To enhance the interactivity of the plot, we incorporated an `IntSlider` feature, enabling viewers to navigate through different years and observe the frequently given names.
+
+Overall, while the creation of the "baby_plot" was an enjoyable experience, it lacks the clarity and directness necessary to effectively convey the changing popularity of baby names over time to viewers.
+
