@@ -169,6 +169,11 @@ $$ \delta = \mid 1.5 - mean(sexe) \mid $$
 
 ## Week 3 - Refined Implementation
 
+
+### Visualization 2
+
+To take into account the comments made on the forum, a slider allowing to select a year range was added. It is now possible to see the evolution of the popularity of names by region over time.
+
 ### Visualization 3
 
 Minor color and wording adjustments were made to try and make the dashboard clearer and more visually appealing. The main modification brougth to this visualization is the addition of a mixed bar / line charts displaying the evolution of the use of unisex names over time. This addition was motivated by comments made by fellow students in the forum. <br>
@@ -177,13 +182,21 @@ The final version of the visualization 3 is the following :
 
 ![Viz3](https://github.com/GroupeR-DataViz/MiniProject/assets/113033010/74c21959-676e-45f4-a681-af66636bed48)
 
-## Bonus
-
-### Baby Plot
+### Bonus : Baby Plot (visualization 1)
 
 We would like to present the "baby_plot" as an example of `chartjunk`, which was discussed during class. Despite its playful appearance and interactive functionality, this plot falls short in effectively displaying the change in popularity of baby names over time. Instead, it requires viewers to retain information in their memory to make comparisons across different years.
 
 In the process of creating this visualization, we took a suitable image of a baby and used the `clippingmagic` tool to remove the background. Subsequently, we introduced a word cloud within the body of the baby image. To enhance the interactivity of the plot, we incorporated an `IntSlider` feature, enabling viewers to navigate through different years and observe the frequently given names.
 
-Overall, while the creation of the "baby_plot" was an enjoyable experience, it lacks the clarity and directness necessary to effectively convey the changing popularity of baby names over time to viewers.
+Overall, while the creation of the "baby_plot" was an enjoyable experience, it lacks the clarity and directness necessary to effectively convey the changing popularity of baby names over time to viewers. <br>
+In order to admire this masterpice, the following libraries are required (all can be installed via pip):
+* matplotlib
+* PIL (`pip install Pillow`)
+* numpy
+* scipy
+* pandas
+* wordcloud
+* ipywidgets
 
+Here is a preview of what to expect when running the notebook :
+![baby](https://github.com/GroupeR-DataViz/MiniProject/assets/113033010/46abf5bb-c77d-41d2-82e0-a1fe0297f9b0)
